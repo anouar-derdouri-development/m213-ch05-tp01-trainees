@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".Ex02Activity">
+
+    <TextView
+        android:id="@+id/tv_Ben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Ben"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Kagure"
+        android:layout_toLeftOf="@id/tv_Ben"
+        android:layout_alignTop="@id/tv_Ben"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Kunal"
+        android:layout_toRightOf="@id/tv_Ben"
+        android:layout_alignTop="@id/tv_Ben"/>
+
+    <TextView
+        android:id="@+id/tv_Jennie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Jennie"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/tv_Omoju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Omoju"
+        android:layout_above="@id/tv_Jennie"
+        android:layout_alignEnd="@id/tv_Jennie"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Amy"
+        android:layout_above="@id/tv_Omoju"
+        android:layout_alignEnd="@id/tv_Jennie"/>
+
+    <TextView
+        android:id="@+id/tv_Layla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Layla"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Katherine"
+        android:layout_toRightOf="@id/tv_Layla"
+        android:layout_alignBottom="@id/tv_Layla"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:background="#a5d4e7"
+        android:text="Natalie"
+        android:layout_alignStart="@id/tv_Layla"
+        android:layout_above="@id/tv_Layla"/>
+
+</RelativeLayout>

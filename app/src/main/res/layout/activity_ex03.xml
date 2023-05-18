@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ex03Activity">
+
+    <Button
+        android:id="@+id/btn_Ghost"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/white"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Ghost" />
+
+    <Button
+        android:id="@+id/btn_Top"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_Ghost"
+        android:layout_alignLeft="@id/btn_Ghost"
+        android:text="Top" />
+
+    <Button
+        android:id="@+id/btn_Right"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        android:layout_toRightOf="@id/btn_Ghost"
+        android:layout_alignTop="@id/btn_Ghost"/>
+
+    <Button
+        android:id="@+id/btn_Bottom"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Bottom"
+        android:layout_below="@id/btn_Ghost"
+        android:layout_alignRight="@id/btn_Ghost"/>
+
+    <Button
+        android:id="@+id/btn_Left"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:layout_toLeftOf="@id/btn_Ghost"
+        android:layout_alignTop="@id/btn_Ghost"/>
+
+</RelativeLayout>
